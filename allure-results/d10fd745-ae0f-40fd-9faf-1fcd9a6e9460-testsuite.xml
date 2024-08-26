@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1724680611133' stop='1724680656357'>
+    <name>Login Test</name>
+    <title>Login Test</title>
+    <test-cases>
+        <test-case start='1724680611134' status='passed' stop='1724680629255'>
+            <name>Login Successful</name>
+            <title>Login Successful</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1724680629300' status='broken' stop='1724680640127'>
+            <name>Successfully Redirected to Category Page</name>
+            <title>Successfully Redirected to Category Page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The following error originated from your application code, not from Cypress.
+                
+                  > Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</message>
+                <stack-trace>InvalidCharacterError: The following error originated from your application code, not from Cypress.
+                
+                  > Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application
+                Error: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+                    at f (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:148208)
+                    at 533 (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:148360)
+                    at n (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:158764)
+                    at &lt;unknown> (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:158971)
+                    at &lt;unknown> (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:158979)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1724680640282' status='passed' stop='1724680647837'>
+            <name>Searching Product With Searchbar</name>
+            <title>Searching Product With Searchbar</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1724680647890' status='broken' stop='1724680656313'>
+            <name>Adding Product to Cart</name>
+            <title>Adding Product to Cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The following error originated from your application code, not from Cypress.
+                
+                  > Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</message>
+                <stack-trace>InvalidCharacterError: The following error originated from your application code, not from Cypress.
+                
+                  > Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application
+                Error: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+                    at f (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:148208)
+                    at 533 (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:148360)
+                    at n (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:158764)
+                    at &lt;unknown> (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:158971)
+                    at &lt;unknown> (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:158979)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

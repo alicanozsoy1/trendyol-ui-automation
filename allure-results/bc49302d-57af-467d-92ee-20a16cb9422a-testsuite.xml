@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1724679921986' stop='1724680018850'>
+    <name>Login Test</name>
+    <title>Login Test</title>
+    <test-cases>
+        <test-case start='1724679921986' status='failed' stop='1724679954704'>
+            <name>Login Successful</name>
+            <title>Login Successful</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find content: 'Hesabım' within the element: &lt;p.link-text> but never did.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Hesabım' within the element: &lt;p.link-text> but never did.
+                    at HomePage.controlAccount (webpack:///./cypress/e2e/pages/home-page.js:4:30)
+                    at Context.eval (webpack:///./cypress/e2e/tests/user-tests.cy.js:29:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1724679954807' status='broken' stop='1724679980647'>
+            <name>Successfully Redirected to Category Page</name>
+            <title>Successfully Redirected to Category Page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The following error originated from your application code, not from Cypress.
+                
+                  > Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</message>
+                <stack-trace>InvalidCharacterError: The following error originated from your application code, not from Cypress.
+                
+                  > Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application
+                Error: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+                    at f (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:148208)
+                    at 533 (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:148360)
+                    at n (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:158764)
+                    at &lt;unknown> (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:158971)
+                    at &lt;unknown> (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:158979)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1724679980962' status='failed' stop='1724679992741'>
+            <name>Searching Product With Searchbar</name>
+            <title>Searching Product With Searchbar</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4000ms: Expected to find element: `div:nth-child(2) > div.p-card-chldrn-cntnr.card-border > a`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 4000ms: Expected to find element: `div:nth-child(2) > div.p-card-chldrn-cntnr.card-border > a`, but never found it.
+                    at searchResultsPage.resultsIsDisplayed (webpack:///./cypress/e2e/pages/search-results-page.js:4:11)
+                    at Context.eval (webpack:///./cypress/e2e/tests/user-tests.cy.js:47:30)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1724679992795' status='broken' stop='1724680018564'>
+            <name>Adding Product to Cart</name>
+            <title>Adding Product to Cart</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The following error originated from your application code, not from Cypress.
+                
+                  > Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application</message>
+                <stack-trace>InvalidCharacterError: The following error originated from your application code, not from Cypress.
+                
+                  > Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+                
+                When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+                
+                This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+                
+                https://on.cypress.io/uncaught-exception-from-application
+                Error: Failed to execute 'atob' on 'Window': The string to be decoded is not correctly encoded.
+                    at f (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:148208)
+                    at 533 (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:148360)
+                    at n (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:158764)
+                    at &lt;unknown> (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:158971)
+                    at &lt;unknown> (https://cdn.dsmcdn.com/storefrontmarketing/webgw/remote/marketing-search.bundle.1588934374041dc92b36152e3e84a552.js:2:158979)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
